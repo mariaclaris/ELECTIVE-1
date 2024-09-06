@@ -1,0 +1,109 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: #e91e63;
+    color: white;
+    padding: 20px;
+}
+header .container a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+header .container a{
+    text-decoration: none ;
+    color: white;
+    padding: 15px;
+}
+header .container a:hover{
+    background-color: deeppink;
+}
+nav{
+    float: left;
+    width: 20%;
+    background-color: #ec407a;
+    height: 700px;
+}
+article{
+    float: left;
+    width: 70%;
+    background-color: #f48fb1;
+    height: 700px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.navigation_menu li{
+    list-style: none;
+    padding: 15px;
+}
+.navigation_menu li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation_menu li:hover{
+    background-color: deeppink;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color:#e91e63;
+}
+footer h2{
+    color: black;
+    padding: 15px;
+}
+footer_menu a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.profile-header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.profile-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+}
+.profile-header p {
+    margin: 5px 0;
+    color: white;
+}
+
+
+
+/* THIS CSS IS FOR TABLE */
+
+table{
+    width: 50%;
+    border-collapse: none;
+    margin-bottom: 20px;
+}
+.table_data{
+    background-color: #f48fb1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+
+}
+
